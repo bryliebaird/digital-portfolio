@@ -137,6 +137,16 @@ nav {
     box-shadow: 0 0 2rem 0.063rem #1b0739;
 }
 
+#resumeBtn {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #1b0739;
+    letter-spacing: .75px;
+    text-transform: none;
+    transition: 0.125s ease-in;
+}
+
 
 /* #############################################
 Website Logos
