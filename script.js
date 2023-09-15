@@ -21,52 +21,6 @@ const animateCSS = (element, animation, prefix = 'animate__') =>
 
 
 // ###########################################################
-// Projects 3rd Row Toggle Display & Animation Effect
-// ########################################################### //
-
-const toggleButton = document.getElementById("projectBtn");
-const content = document.getElementById("toggle-row");
-const boxes = document.querySelectorAll(".project-box");
-const viewIcon = document.getElementById("viewIcon");
-
-toggleButton.addEventListener("click", function() {
-  if (content.style.display === "none") {
-    content.style.display = "block";
-    toggleButton.innerHTML = "View Less";
-    viewIcon.setAttribute("src", "view-less.svg");
-    for (let i = 0; i < boxes.length; i++) {
-      boxes[i].classList.add("fade-in");
-      boxes[i].classList.remove("fade-out");
-    }
-  } else if(content.style.display === "block") {
-    toggleButton.innerHTML = "View More";
-    for (let i = 0; i < boxes.length; i++) {
-      boxes[i].classList.add("fade-out");
-      setTimeout(function() {
-        content.style.display = "none";   
-      }, 1500);
-    }
-  } else {
-    content.style.display = "none";
-  }
-});
-
-// function toggleIcon() {
-//     let iconFlag = true;
-//     var icon = document.getElementById("viewIcon");
-
-//     if (iconFlag) {
-//         icon.src = "assets/img/view-less.svg";
-//         iconFlag = false;
-//     } else {
-//         icon.src = "assets/img/view-more.svg";
-//         iconFlag = true;
-//     }
-// }
-
-
-
-// ###########################################################
 // typing effect on <h2>
 // ########################################################### //
 
@@ -84,6 +38,44 @@ typewrite = () => {
         setTimeout(typewrite, twSpeed);
     }
 }
+
+
+
+// ###########################################################
+// Projects 3rd Row Toggle Display & Animation Effect
+// ########################################################### //
+
+// const toggleButton = document.getElementById("projectBtn");
+// const content = document.getElementById("toggle-row");
+// const boxes = document.querySelectorAll(".project-box");
+// const viewIcon = document.getElementById("viewIcon");
+
+// toggleButton.addEventListener("click", function() {
+//   if (content.style.display === "none") {
+//     content.style.display = "block";
+//     toggleButton.innerHTML = "View Less";
+//     viewIcon.setAttribute("src", "view-less.svg");
+//     for (let i = 0; i < boxes.length; i++) {
+//       boxes[i].classList.add("fade-in");
+//       boxes[i].classList.remove("fade-out");
+//     }
+//   } else if(content.style.display === "block") {
+//     toggleButton.innerHTML = "View More";
+//     for (let i = 0; i < boxes.length; i++) {
+//       boxes[i].classList.add("fade-out");
+//       setTimeout(function() {
+//         content.style.display = "none";   
+//       }, 1500);
+//     }
+//   } else {
+//     content.style.display = "none";
+//   }
+// });
+
+
+
+
+
 
 
 // ###########################################################
