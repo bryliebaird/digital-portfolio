@@ -234,7 +234,8 @@ Project Cards
 }
 
 .project-title-hover {
-    color: #64ffda;
+    /* color: #64ffda; */
+    color: #f86d58;
 }
 
 .project-footer-font{

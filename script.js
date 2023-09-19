@@ -221,30 +221,17 @@ function mouseoutSass(skill){
 /* ==== CRM Mouseover/Mouseout ==== */
 function mouseoverCRM(skill){
     skill.style.border = "3px solid #f86d58";
-    document.querySelector("#crmSVG").setAttribute("src", "/assets/img/crm-2.svg");
+    // document.querySelector("#crmSVG").setAttribute("src", "/assets/img/crm-2.svg");
     document.querySelector("#crmCheck").classList.add("animate__animated", "animate__bounce");
 }
 
 function mouseoutCRM(skill){
     skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#crmSVG").setAttribute("src", "/assets/img/crm-1.svg");
+    // document.querySelector("#crmSVG").setAttribute("src", "/assets/img/crm-1.svg");
     document.querySelector("#crmCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
 
-
-/* ==== Salesloft Mouseover/Mouseout ==== */
-function mouseoverSalesloft(skill){
-    skill.style.border = "3px solid #f86d58";
-    document.querySelector("#salesloftSVG").setAttribute("src", "/assets/img/salesloft-2.svg");
-    document.querySelector("#salesloftCheck").classList.add("animate__animated", "animate__bounce");
-}
-
-function mouseoutSalesloft(skill){
-    skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#salesloftSVG").setAttribute("src", "/assets/img/salesloft-1.svg");
-    document.querySelector("#salesloftCheck").classList.remove("animate__animated", "animate__bounce");
-}
 
 
 
