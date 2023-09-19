@@ -283,6 +283,8 @@ Skill Pills
     border: 3px solid #fff9f1;
     border-radius: 999em;
     margin: 1.375rem 1.375rem 0rem 1.375rem;
+    height: 25%;
+    max-height: 30%;
     list-style: none;
 }
 
@@ -306,7 +308,7 @@ Skill Pills
 
 .skill-title {
     font-family: 'IBM Plex Mono', monospace;
-    font-size: 1rem;
+    font-size: 1.12rem;
     font-weight: 500;
     margin-right: 15%;
     text-align: center;
@@ -324,6 +326,9 @@ Skill Pills
     margin-right: 0.5rem;
     margin-left: 0.313rem;
 }
+
+
+
 
 
 
