@@ -112,7 +112,6 @@ function mouseoutCSS(skill){
     document.querySelector("#cssCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
-
 // JavaScript Skill Btn
 function mouseoverJS(skill){
     skill.style.border = "3px solid #f86d58";
@@ -214,7 +213,7 @@ function mouseoverOutreach(skill){
 
 function mouseoutOutreach(skill){
     skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#outReachCheck").classList.remove("animate__animated", "animate__bounce");
+    document.querySelector("#outreachCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
 // Sales Navigator Skill Btn
