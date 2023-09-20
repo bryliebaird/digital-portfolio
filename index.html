@@ -67,7 +67,6 @@
             <!-- HEADER IMG -->
             <div class="container-lg text-center pt-5">
                 <img id="logo-one" class="logo-img mb-4" src="assets/img/portfolio-logo.svg" alt="brylie baird logo">
-                <!-- <p id="intro-text" class="text-light mb-0">Hello, World! I'm Brylie Baird, a Front-End Web Developer based out of Austin, TX. Welcome to my page!</p> -->
             </div>
             <!-- ABOUT SECTION -->
             <div class="container-lg text-center pt-5 mt-3">
@@ -77,14 +76,28 @@
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="section-width">
-                        <p class="text-light mb-0">
-                        “If you don’t like your destiny, don’t accept it. Instead have the courage to change it the way you want it to be.”
+                        <p class="text-center text-light my-4">
+                            Hi there! I'm Brylie Baird, an Austin-based BDR. Welcome to my page! 👋 
                         </p>
-                        <p class="text-light my-4">
-                            After several years of teaching, I realized that my love for technology and problem-solving could be utilized in the corporate world. This realization led me to begin a career transition, where I aim to make a positive impact as a Sales or Business Development Representative. 
+                        <div class="text-center">
+                            <a href="../assets/brylie-baird-resume.pdf" target="_blank">
+                                <button class="btn btn-primary my-2 px-3 py-2">Resume</button>
+                            </a>
+                        </div>
+                        <p class="text-light my-4 py-1">
+                            Before diving into the world of tech, I spent a fulfilling chapter of my career in education. I had the privilege of wearing multiple hats, from being an elementary school teacher to serving in roles within special education. The thing that resonated most with me during my teaching days was the genuine joy of helping students discover their potential and ignite their passion for learning.
                         </p>
-                        <p class="text-light mb-0">
-                            My background in education has honed my skills in reading people and data, allowing me to create targeted objectives and deliver dynamic presentations that captivate and motivate learners. With my strong analytical and data-driven approach, I am well-equipped to develop targeted sales strategies that maximize profits and produce measurable results. Additionally, my experience in web development and proficiency in technology provide a unique perspective on leveraging technology to create engaging content for customers to help drive success. 
+                        <p class="text-light my-4 py-1">
+                            When the pandemic hit, like everyone, I decided to pivot and explore my long-standing interest in the tech field (living in Austin, tech is practically in the air we breathe, right?) I rolled up my sleeves, dove into learning, and acquired the skills needed to become a front-end web developer. Fun fact - the very website you're looking at right now was crafted by yours truly.
+                        </p>
+                        <p class="text-light my-4 py-1">
+                            But as much as I relished the coding world, I couldn't ignore that something was missing. It was during this phase that I stumbled upon tech sales, and it clicked. This dynamic industry has allowed me to harmonize two of my passions - technology and people. Working with innovative and groundbreaking products, forging client relationships, and turning 'no' into 'yes' is truly invigorating and reminiscent of the rewarding experiences I had during my teaching career. This career transition has empowered me to leverage my skills to lay the crucial groundwork for driving sales success. 
+                        </p>
+                        <p class="text-light my-4 py-1">
+                            I’ve now successfully made the transition from the classroom to corporate, and most recently have had the opportunity to work as an SDR in a B2B SaaS role working enterprise-level accounts. I was able to quickly apply the skills and processes needed to be a successful SDR, and exceeded quota in my debut month on the sales floor.  
+                        </p>
+                        <p class="text-light my-4 py-1">
+                            As I continue to navigate this dynamic industry, I look forward to making continued growth and blending my unique experiences and skills together to ultimately create a lasting impression in the tech sales arena.
                         </p>
                     </div>  
                 </div>
@@ -101,7 +114,9 @@
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="section-width">
-                        <p class="text-light text-center">Below is a list of technical skills I've acquired over the past few years. As a dedicated learner, I am committed to expanding my knowledge and abilities in these areas, and constantly seek out new opportunities for professional growth and development.</p>
+                        <p class="text-light text-center">
+                            Below is a list of technical skills I've acquired over the past few years. I'm all about learning, and I'm always on the lookout for new chances to learn, grow, and get better at what I do.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -153,7 +168,15 @@
                             <p id="sendosoTitle" class="skill-title text-dark mb-0">Sendoso</p>
                             <img id="sendosoCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
                         </div>
-                    </li>                               
+                    </li>
+                    <!-- LinkedIn -->
+                    <li onmouseover="mouseoverBS(this)" onmouseout="mouseoutBS(this)" class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                        <div class="skill d-flex justify-content-between align-items-center">
+                            <!-- <img id="bsSVG" class="skill-img" src="/assets/img/bootstrap-dark.svg"> -->
+                            <p id="bootstrap-pill" class="skill-title text-dark mb-0">LinkedIn</p>
+                            <img id="bsCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
+                        </div>
+                    </li>                             
                     <!-- HTML -->
                     <li onmouseover="mouseoverHTML(this)" onmouseout="mouseoutHTML(this)" class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
                         <div class="skill d-flex justify-content-between align-items-center">
@@ -198,7 +221,7 @@
                     <li onmouseover="mouseoverGit(this)" onmouseout="mouseoutGit(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
                         <div class="skill d-flex justify-content-between align-items-center">
                             <!-- <img id="gitSVG" class="skill-img" src="/assets/img/git-dark.svg"> -->
-                            <p class="skill-title text-dark mb-0">Git</p>
+                            <p class="skill-title text-dark mb-0">Git/Github</p>
                             <img id="gitCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
                         </div>
                     </li>
@@ -214,10 +237,26 @@
                     <!-- <li onmouseover="mouseoverGoogle(this)" onmouseout="mouseoutGoogle(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
                         <div class="skill d-flex justify-content-between align-items-center">
                             <img id="googleSVG" class="skill-img" src="/assets/img/google-1.svg">
-                            <p id="googleTitle" class="skill-title text-dark mb-0">Google Workspace</p>
+                            <p id="googleTitle" class="skill-title text-dark mb-0">G Suite</p>
                             <img id="googleCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
                         </div>
-                    </li>  -->
+                    </li> -->
+                    <!-- Microsoft Office -->
+                    <!-- <li onmouseover="mouseoverGoogle(this)" onmouseout="mouseoutGoogle(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                        <div class="skill d-flex justify-content-between align-items-center">
+                            <img id="googleSVG" class="skill-img" src="/assets/img/google-1.svg">
+                            <p id="googleTitle" class="skill-title text-dark mb-0">Microsoft Office</p>
+                            <img id="googleCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
+                        </div>
+                    </li> -->
+                    <!-- Slack -->
+                    <!-- <li onmouseover="mouseoverGoogle(this)" onmouseout="mouseoutGoogle(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                        <div class="skill d-flex justify-content-between align-items-center">
+                            <img id="googleSVG" class="skill-img" src="/assets/img/google-1.svg">
+                            <p id="googleTitle" class="skill-title text-dark mb-0">Slack</p>
+                            <img id="googleCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
+                        </div>
+                    </li> -->
                 </div>
             </ul>
         </section> 
@@ -232,7 +271,7 @@
                 </div>
                 <div class="d-flex justify-content-center">
                     <div class="section-width">
-                        <p class="text-light text-center mb-0">Explore a selection of projects that showcase my expertise in curriculum design, data analysis, and web development. To access more details, source code, or project demos, click on the links below or visit my <a href="https://github.com/bryliebaird" target="_blank">Github</a>&nbsp;account.</p>
+                        <p class="text-light text-center mb-0">Explore a selection of projects I've crafted during my teaching tenure alongside some freelance coding ventures I've undertaken. To view sourcecode, check out my <a href="https://github.com/bryliebaird" target="_blank">Github</a>&nbsp;account.</p></p>
                     </div>
                 </div>
             </div>
@@ -262,9 +301,11 @@
                             </header>
                             <main class="mt-3">
                                 <p class="project-title">Guess the Word</p>
-                                <p class="sm-text text-light">A JavaScript game that generates a random mystery word and challenges users to guess the correct letters to solve it. The program includes a validation feature that provides feedback on correct/incorrect letters and the number of remaining turns.</p>
+                                <p class="sm-text text-light"> This game generates a random mystery word and challenges users to guess the correct letters to solve it. Javascript is used to validate and provide feedback on correct/incorrect letters as well as the number of remaining turns.</p>
                             </main>
                             <footer>
+                                <p class="project-footer-font">HTML</p>
+                                <p class="project-footer-font">CSS</p>
                                 <p class="project-footer-font">JavaScript</p>
                             </footer>
                         </div>
@@ -288,11 +329,11 @@
                             </header>
                             <main class="mt-3">
                                 <p id="digitalEscapeRoom" class="project-title">Digital Escape Room</p>
-                                <p class="sm-text text-light">This digital escape room is based on the movie 'The Haunted House' and provides an exciting and interactive way for students to practice fact fluency.
+                                <p class="sm-text text-light">Based off the movie "The Haunted House," this digital escape room provides an exciting and interactive way for students to practice their math fact fluency.
                                 </p>
                             </main>
                             <footer>
-                                <p class="project-footer-font">Instructional Design</p>
+                                <p class="project-footer-font">Curriculum Design</p>
                                 <p class="project-footer-font">Canva</p>
                                 <p class="project-footer-font">Google Forms, Google Slides</p>
                             </footer>
@@ -382,13 +423,13 @@
                             <main class="mt-3">
                                 <p id="githubGallery" class="project-title">Mindfulness Timer</p>
                                 <p class="sm-text text-light">
-                                    Experience a moment of calm with this animated breathing exercise timer, built using vanilla JavaScript. Take a few minutes to focus on your breath and practice mindfulness with this simple yet effective tool.
+                                    Experience a moment of calm with this animated breathing exercise timer, built using JavaScript. Take a few minutes to focus on your breath and practice mindfulness with this simple yet effective tool.
                                 </p>
                             </main>
                             <footer>
                                 <p class="project-footer-font">HTML</p>
                                 <p class="project-footer-font">CSS</p>
-                                <p class="project-footer-font">Vanilla Javascript</p>
+                                <p class="project-footer-font">Javascript</p>
                             </footer>
                         </div>
                     </li>
