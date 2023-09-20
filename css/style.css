@@ -381,6 +381,8 @@ Contact Modal
 ########################################################### */
 #contact-modal {
     border-radius: 12px;
+    background: #fbf9de;
+    background: #1b0739;
 }
 
 .modal-content {
@@ -389,7 +391,7 @@ Contact Modal
 
 
 #contactModalLabel{
-    color: #000;
+    color: #fff;
     font-family: "Rubik";
     font-weight: 400;
     text-transform: uppercase;
@@ -403,13 +405,22 @@ input {
 }
 
 .input-container, .input-group-text {
-    /* border: 1.75px solid #1b0739; */
+    border: 1.75px solid #1b0739;
     border: transparent;
 }
 
 .textarea-label {
     font-family: 'Montserrat', sans-serif;
 }
+
+.btn-close {
+    color: #fff !important;
+}
+
+#submitBtn:hover {
+    background: #ac61b9;
+}
+
 
 
 /* ##########################################################

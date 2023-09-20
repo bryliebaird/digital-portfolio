@@ -260,18 +260,7 @@ function mouseoutSendoso(skill){
     document.querySelector("#sendosoCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
-
-
-
-
 // *** EVENT LISTENERS ***
 window.addEventListener("load", typewrite);
 window.addEventListener("load", updateCopyright);
-
-
-
-
-
-
-
 

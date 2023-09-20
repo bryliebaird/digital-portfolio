@@ -631,26 +631,26 @@
         <!-- contact form modal -->
         <div class="modal fade" id="contactModal" tabindex="-1" aria-labelledby="contactModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-dialog-centered">
-                <div id="contact-modal" class="modal-content bg-primary p-3 border-rounded">
+                <div id="contact-modal" class="modal-content p-3 border-rounded">
                     <div class="modal-body">
                         <div class="d-flex justify-content-between mb-4">
                             <h5 class="modal-title" id="contactModalLabel">Contact Today.</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button id="formBtn" type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
                         </div>
 
                         <!-- FORM -->
                         <form id="form" class="close-form" action="https://formsubmit.co/3ec9605a560317a4391679720afa7698" method="POST">
                             <!-- FORM NAME INPUT -->
                             <div class="input-group mb-3">
-                                <span class="input-group-text bg-dark">
-                                    <i class="fa-solid fa-user fa-lg text-danger"></i>
+                                <span class="input-group-text bg-light">
+                                    <i class="fa-solid fa-user fa-lg text-primary"></i>
                                 </span>
                                 <input name="User Name" class="input-container form-control bg-light" placeholder="Name">
                             </div>
                             <!-- FORM EMAIL INPUT -->
                             <div class="input-group mb-3">
-                                <span class="input-group-text bg-dark">
-                                    <i class="fa-solid fa-envelope fa-lg text-danger"></i>
+                                <span class="input-group-text bg-light">
+                                    <i class="fa-solid fa-envelope fa-lg text-primary"></i>
                                 </span>
                                 <input name="User Email" type="email" class="input-container form-control bg-light" placeholder="Email Address">
                             </div>
@@ -662,7 +662,10 @@
                             <input type="hidden" name="_subject" value="***Portfolio Website Response!!!***">
                             <input type="hidden" name="_next" value="https://bryliebaird.org/pages/thankyou.html">                             
                             <input type="hidden" name="_autoresponse" value="Thank you for reaching out! You should hear from me within 24 hours. I look forward to working with you!&#128516;">
-                            <button type="submit" id="submitBtn" class="btn btn-font">Submit</button>
+                            <div class="container-fluid d-flex justify-content-center">
+                                <button type="submit" id="submitBtn" class="btn btn-font">Submit</button>
+                            </div>
+                            
                         </form>
                     </div>
                 </div>
