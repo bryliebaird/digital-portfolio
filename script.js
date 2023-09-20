@@ -39,45 +39,6 @@ typewrite = () => {
     }
 }
 
-
-
-// ###########################################################
-// Projects 3rd Row Toggle Display & Animation Effect
-// ########################################################### //
-
-// const toggleButton = document.getElementById("projectBtn");
-// const content = document.getElementById("toggle-row");
-// const boxes = document.querySelectorAll(".project-box");
-// const viewIcon = document.getElementById("viewIcon");
-
-// toggleButton.addEventListener("click", function() {
-//   if (content.style.display === "none") {
-//     content.style.display = "block";
-//     toggleButton.innerHTML = "View Less";
-//     viewIcon.setAttribute("src", "view-less.svg");
-//     for (let i = 0; i < boxes.length; i++) {
-//       boxes[i].classList.add("fade-in");
-//       boxes[i].classList.remove("fade-out");
-//     }
-//   } else if(content.style.display === "block") {
-//     toggleButton.innerHTML = "View More";
-//     for (let i = 0; i < boxes.length; i++) {
-//       boxes[i].classList.add("fade-out");
-//       setTimeout(function() {
-//         content.style.display = "none";   
-//       }, 1500);
-//     }
-//   } else {
-//     content.style.display = "none";
-//   }
-// });
-
-
-
-
-
-
-
 // ###########################################################
 // Project Boxes Mouseover Animation Effect
 // ########################################################### //
@@ -93,6 +54,32 @@ function mouseoutProject(project){
     title[0].classList.remove("project-title-hover");
     project.classList.remove("animate__animated", "animate__pulse");
 }
+
+
+// ###########################################################
+// Project OnClick Action
+// ########################################################### //
+const project1 = document.getElementById("project1"); 
+const project2 = document.getElementById("project2"); 
+const project3 = document.getElementById("project3"); 
+const project4 = document.getElementById("project4");
+const project5 = document.getElementById("project5");
+const project6 = document.getElementById("project6");
+
+clickProject(project1, "https://bryliebaird.github.io/guess-the-word/"); 
+clickProject(project2, "https://www.canva.com/design/DAFKdLqTCDE/_N7Mtx2GK43y50nyx-a5tg/view#1"); 
+clickProject(project3, "https://bryliebaird.github.io/github-repo-gallery/?"); 
+clickProject(project4, "https://bryliebaird.github.io/unplugged-retreat/");
+clickProject(project5, "https://bryliebaird.github.io/mindfulness-timer/");
+clickProject(project6, "https://docs.google.com/spreadsheets/d/1VWV3P-zZo8PulrZwjV9F-AWAk-WWudYCDhrQU1IsrM0/edit?usp=sharing")
+
+
+function clickProject(project, url) {
+    project.addEventListener("click", function () {
+        window.open(url, "_blank"); // "_blank" opens the link in a new tab
+    });
+}
+
 
 
 // ###########################################################
