@@ -58,7 +58,7 @@
             </div>
         </nav>
 <!-- ###########################################################-->
-<!--  Intro Section   -->
+<!--  HEADER & ABOUT SECTION   -->
 <!-- ###########################################################-->
         <section id="intro" class="container-fluid pb-5 mb-5 pb-3">
             <div id="intro-div" class="container-fluid bg-primary pb-5 mb-5">
@@ -66,21 +66,17 @@
                 <h2 id="twText"class="text-light text-center"></h2>                 
             </div>
             </div>
-            <div class="container-lg text-center">
+            <!-- HEADER IMG -->
+            <div class="container-lg text-center pt-5">
                 <img id="logo-one" class="logo-img mb-4" src="assets/img/portfolio-logo.svg" alt="brylie baird logo">
                 <!-- <p id="intro-text" class="text-light mb-0">Hello, World! I'm Brylie Baird, a Front-End Web Developer based out of Austin, TX. Welcome to my page!</p> -->
             </div>
-        </section>
-<!-- ###########################################################-->
-<!--  About -->
-<!-- ###########################################################-->
-        <section id="about" class="container-fluid bg-dark py-5 my-5">
-            <div class="container-lg text-center">
+            <!-- ABOUT SECTION -->
+            <div class="container-lg text-center pt-5 mt-3">
                 <h3 class="text-light">About</h3>
                 <div class="d-flex justify-content-center">
                     <hr>
                 </div>
-                <!-- <img id="logo-two" class="logo-img my-4" src="/assets/img/portfolio-logo.svg" alt="brylie baird logo image"> -->
                 <div class="d-flex justify-content-center">
                     <div class="section-width">
                         <p class="text-light mb-0">
@@ -99,7 +95,7 @@
 <!-- ###########################################################-->
 <!--  Skills -->
 <!-- ###########################################################-->
-        <section id="skills-intro" class="container-fluid bg-dark pt-5 mt-5 pb-1">
+        <section id="skills-intro" class="container-fluid bg-dark pt-5 mt-5 pb-2">
             <div class="container-lg text-center">
                 <h3 class="text-light">Skills</h3>
                 <div class="d-flex justify-content-center">
@@ -114,7 +110,7 @@
         </section>
         <!-- SKILLS GRID -->
         <section id="skills" class="container-fluid mb-3 pb-3">
-            <ul class="skills-grid container">
+            <ul class="skills-grid container mb-5 pb-5">
                 <div class="row">
                     <!-- Salesforce -->
                     <li onmouseover="mouseoverCRM(this)" onmouseout="mouseoutCRM(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
@@ -125,39 +121,39 @@
                         </div>
                     </li>
                     <!-- Outreach -->
-                    <li onmouseover="mouseoverCRM(this)" onmouseout="mouseoutCRM(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                    <li onmouseover="mouseoverOutreach(this)" onmouseout="mouseoutOutreach(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
                         <div class="skill d-flex justify-content-between align-items-center">
-                            <p id="crmTitle" class="skill-title text-dark mb-0">Outreach</p>
-                            <img id="crmCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
+                            <p id="outreachTitle" class="skill-title text-dark mb-0">Outreach</p>
+                            <img id="outreachCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
                         </div>
                     </li>
                     <!-- LinkedIn Sales Navigator -->
-                    <li onmouseover="mouseoverCRM(this)" onmouseout="mouseoutCRM(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                    <li onmouseover="mouseoverSalesnav(this)" onmouseout="mouseoutSalesnav(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
                         <div class="skill d-flex justify-content-between align-items-center">
-                            <p id="crmTitle" class="skill-title text-dark mb-0">Sales Nav</p>
-                            <img id="crmCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
+                            <p id="salesnavTitle" class="skill-title text-dark mb-0">Sales Nav</p>
+                            <img id="salesnavCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
                         </div>
                     </li>
                     <!-- ZoomInfo -->
-                    <li onmouseover="mouseoverCRM(this)" onmouseout="mouseoutCRM(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                    <li onmouseover="mouseoverZoominfo(this)" onmouseout="mouseoutZoominfo(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
                         <div class="skill d-flex justify-content-between align-items-center">
-                            <p id="crmTitle" class="skill-title text-dark mb-0">ZoomInfo</p>
-                            <img id="crmCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
+                            <p id="zoominfoTitle" class="skill-title text-dark mb-0">ZoomInfo</p>
+                            <img id="zoominfoCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
                         </div>
                     </li>
                     <!-- Gong.io -->
-                    <li onmouseover="mouseoverCRM(this)" onmouseout="mouseoutCRM(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                    <li onmouseover="mouseoverGong(this)" onmouseout="mouseoutGong(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
                         <div class="skill d-flex justify-content-between align-items-center">
-                            <p id="crmTitle" class="skill-title text-dark mb-0">Gong.io</p>
-                            <img id="crmCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
+                            <p id="gongTitle" class="skill-title text-dark mb-0">Gong.io</p>
+                            <img id="gongCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
                         </div>
                     </li>
                     <!-- Sendoso -->
-                    <li onmouseover="mouseoverCRM(this)" onmouseout="mouseoutCRM(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
+                    <li onmouseover="mouseoverSendoso(this)" onmouseout="mouseoutSendoso(this)"  class="skill-pill bg-light col-10 col-sm-4 col-md-3 col-lg-3 col-xl-2">
                         <div class="skill d-flex justify-content-between align-items-center">
                             <!-- <img id="crmSVG" class="skill-img" src="/assets/img/sendoso-darkk.svg"> -->
-                            <p id="crmTitle" class="skill-title text-dark mb-0">Sendoso</p>
-                            <img id="crmCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
+                            <p id="sendosoTitle" class="skill-title text-dark mb-0">Sendoso</p>
+                            <img id="sendosoCheck" class="checkmark-svg" src="/assets/img/checkmark.svg">
                         </div>
                     </li>                               
                     <!-- HTML -->
@@ -243,8 +239,8 @@
                 </div>
             </div>
         </section>
-        <section id="projects" class="mb-5 pb-5">
-            <ul id="projects-grid" class="container-fluid mt-5">
+        <section id="projects">
+            <ul id="projects-grid" class="container-fluid mt-4 mb-5 pb-5">
                 <div class="row">
                     <!-- Project #1 Guess the Word -->
                     <li onmouseover="mouseoverProject(this)" onmouseout="mouseoutProject(this)" class="project col-10 col-md-4 col-lg-3 col-xl-2 rounded">
@@ -271,7 +267,7 @@
                                 <p class="sm-text text-light">A JavaScript game that generates a random mystery word and challenges users to guess the correct letters to solve it. The program includes a validation feature that provides feedback on correct/incorrect letters and the number of remaining turns.</p>
                             </main>
                             <footer>
-                                <p class="project-footer-font">Javascript</p>
+                                <p class="project-footer-font">JavaScript</p>
                             </footer>
                         </div>
                     </li>
@@ -542,7 +538,7 @@
 <!-- ###########################################################-->
 <!--                       Contact                              -->
 <!-- ###########################################################-->
-        <section id="contact" class="container-fluid bg-dark my-4 py-4">
+        <section id="contact" class="container-fluid bg-dark my-5 py-5">
             <div class="container-lg text-center rounded py-3">
                 <div id="contact-content">
                     <h3 class="text-light">Contact</h3>

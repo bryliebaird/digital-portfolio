@@ -99,126 +99,114 @@ function mouseoutProject(project){
 // Skill Btn Mouseover Animation
 // ########################################################### //
 
+// HTML Skill Btn // 
 function mouseoverHTML(skill){
     skill.style.border = "3px solid #f86d58";
     document.querySelector("#htmlCheck").classList.add("animate__animated", "animate__bounce");
-    document.querySelector("#htmlSvg").setAttribute("src", "/assets/img/html-light.svg");
+    // document.querySelector("#htmlSvg").setAttribute("src", "/assets/img/html-light.svg");
 }
 
 function mouseoutHTML(skill){
     skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#htmlSvg").setAttribute("src", "/assets/img/html-dark.svg");
+    // document.querySelector("#htmlSvg").setAttribute("src", "/assets/img/html-dark.svg");
     document.querySelector("#htmlCheck").classList.remove("animate__animated", "animate__bounce");  
 }
 
+// CSS Skill Btn
 function mouseoverCSS(skill){
     skill.style.border = "3px solid #f86d58";
-    document.querySelector("#cssSVG").setAttribute("src", "/assets/img/css-light.svg");
+    // document.querySelector("#cssSVG").setAttribute("src", "/assets/img/css-light.svg");
     document.querySelector("#cssCheck").classList.add("animate__animated", "animate__bounce");
 }
 
 function mouseoutCSS(skill){
     skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#cssSVG").setAttribute("src", "/assets/img/css-dark.svg");
+    // document.querySelector("#cssSVG").setAttribute("src", "/assets/img/css-dark.svg");
     document.querySelector("#cssCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
+
+// JavaScript Skill Btn
 function mouseoverJS(skill){
     skill.style.border = "3px solid #f86d58";
-    document.querySelector("#jsSVG").setAttribute("src", "/assets/img/javascript-light.svg");
+    // document.querySelector("#jsSVG").setAttribute("src", "/assets/img/javascript-light.svg");
     document.querySelector("#jsCheck").classList.add("animate__animated", "animate__bounce");
 }
 
 function mouseoutJS(skill){
     skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#jsSVG").setAttribute("src", "/assets/img/javascript-dark.svg");
+    // document.querySelector("#jsSVG").setAttribute("src", "/assets/img/javascript-dark.svg");
     document.querySelector("#jsCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
-function mouseoverMailchimp(skill){
-    skill.style.border = "3px solid #f86d58";
-    document.querySelector("#mailchimpSVG").setAttribute("src", "/assets/img/mailchimp-2.svg");
-    document.querySelector("#mailchimpCheck").classList.add("animate__animated", "animate__bounce");
-}
 
-function mouseoutMailchimp(skill){
-    skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#mailchimpSVG").setAttribute("src", "/assets/img/mailchimp-1.svg");
-    document.querySelector("#mailchimpCheck").classList.remove("animate__animated", "animate__bounce");
-}
-
-/* ==== Canva Mouseover/Mouseout ==== */
+/* Canva Skill Btn */
 function mouseoverCanva(skill){
     skill.style.border = "3px solid #f86d58";
-    document.querySelector("#canvaSVG").setAttribute("src", "/assets/img/canva-2.svg");
+    // document.querySelector("#canvaSVG").setAttribute("src", "/assets/img/canva-2.svg");
     document.querySelector("#canvaCheck").classList.add("animate__animated", "animate__bounce");
 }
 
 function mouseoutCanva(skill){
     skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#canvaSVG").setAttribute("src", "/assets/img/canva-1.svg");
+    // document.querySelector("#canvaSVG").setAttribute("src", "/assets/img/canva-1.svg");
     document.querySelector("#canvaCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
+// Git + Github Skill Btn
 function mouseoverGit(skill){
     skill.style.border = "3px solid #f86d58";
-    document.querySelector("#gitSVG").setAttribute("src", "/assets/img/git-light.svg");
+    // document.querySelector("#gitSVG").setAttribute("src", "/assets/img/git-light.svg");
     document.querySelector("#gitCheck").classList.add("animate__animated", "animate__bounce");
 }
 
 function mouseoutGit(skill){
     skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#gitSVG").setAttribute("src", "/assets/img/git-dark.svg");
+    // document.querySelector("#gitSVG").setAttribute("src", "/assets/img/git-dark.svg");
     document.querySelector("#gitCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
 
-/* ==== Bootstrap Mouseover/Mouseout ==== */
+// Bootstrap Skill Btn 
 function mouseoverBS(skill){
     skill.style.border = "3px solid #f86d58";
-    document.querySelector("#bsSVG").setAttribute("src", "/assets/img/bootstrap-light.svg");
+    // document.querySelector("#bsSVG").setAttribute("src", "/assets/img/bootstrap-light.svg");
     document.querySelector("#bsCheck").classList.add("animate__animated", "animate__bounce");
 }
 
 function mouseoutBS(skill){
     skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#bsSVG").setAttribute("src", "/assets/img/bootstrap-dark.svg");
+    // document.querySelector("#bsSVG").setAttribute("src", "/assets/img/bootstrap-dark.svg");
     document.querySelector("#bsCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
-
-
-/* ==== Google Mouseover/Mouseout ==== */
+// Google Workspace Skill Btn 
 function mouseoverGoogle(skill){
     skill.style.border = "3px solid #f86d58";
-    document.querySelector("#googleSVG").setAttribute("src", "/assets/img/google-2.svg");
+    // document.querySelector("#googleSVG").setAttribute("src", "/assets/img/google-2.svg");
     document.querySelector("#googleCheck").classList.add("animate__animated", "animate__bounce");
 }
 
 function mouseoutGoogle(skill){
     skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#googleSVG").setAttribute("src", "/assets/img/google-1.svg");
+    // document.querySelector("#googleSVG").setAttribute("src", "/assets/img/google-1.svg");
     document.querySelector("#googleCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
-
-
-/* ==== SASS Mouseover/Mouseout ==== */
+// SASS Skill Btn 
 function mouseoverSass(skill){
     skill.style.border = "3px solid #f86d58";
-    document.querySelector("#sassSVG").setAttribute("src", "/assets/img/sass-light.svg");
+    // document.querySelector("#sassSVG").setAttribute("src", "/assets/img/sass-light.svg");
     document.querySelector("#sassCheck").classList.add("animate__animated", "animate__bounce");
 }
 
 function mouseoutSass(skill){
     skill.style.border = "3px solid #fff9f1";
-    document.querySelector("#sassSVG").setAttribute("src", "/assets/img/sass-dark.svg");
+    // document.querySelector("#sassSVG").setAttribute("src", "/assets/img/sass-dark.svg");
     document.querySelector("#sassCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
-
-
-/* ==== CRM Mouseover/Mouseout ==== */
+// Salesforce Skill Btn
 function mouseoverCRM(skill){
     skill.style.border = "3px solid #f86d58";
     // document.querySelector("#crmSVG").setAttribute("src", "/assets/img/crm-2.svg");
@@ -229,6 +217,61 @@ function mouseoutCRM(skill){
     skill.style.border = "3px solid #fff9f1";
     // document.querySelector("#crmSVG").setAttribute("src", "/assets/img/crm-1.svg");
     document.querySelector("#crmCheck").classList.remove("animate__animated", "animate__bounce");
+}
+
+// Outreach Skill Btn
+function mouseoverOutreach(skill){
+    skill.style.border = "3px solid #f86d58";
+    document.querySelector("#outreachCheck").classList.add("animate__animated", "animate__bounce");
+}
+
+function mouseoutOutreach(skill){
+    skill.style.border = "3px solid #fff9f1";
+    document.querySelector("#outReachCheck").classList.remove("animate__animated", "animate__bounce");
+}
+
+// Sales Navigator Skill Btn
+function mouseoverSalesnav(skill){
+    skill.style.border = "3px solid #f86d58";
+    document.querySelector("#salesnavCheck").classList.add("animate__animated", "animate__bounce");
+}
+
+function mouseoutSalesnav(skill){
+    skill.style.border = "3px solid #fff9f1";
+    document.querySelector("#salesnavCheck").classList.remove("animate__animated", "animate__bounce");
+}
+
+// ZoomInfo Skill Btn
+function mouseoverZoominfo(skill){
+    skill.style.border = "3px solid #f86d58";
+    document.querySelector("#zoominfoCheck").classList.add("animate__animated", "animate__bounce");
+}
+
+function mouseoutZoominfo(skill){
+    skill.style.border = "3px solid #fff9f1";
+    document.querySelector("#zoominfoCheck").classList.remove("animate__animated", "animate__bounce");
+}
+
+// Gong.io Skill Btn
+function mouseoverGong(skill){
+    skill.style.border = "3px solid #f86d58";
+    document.querySelector("#gongCheck").classList.add("animate__animated", "animate__bounce");
+}
+
+function mouseoutGong(skill){
+    skill.style.border = "3px solid #fff9f1";
+    document.querySelector("#gongCheck").classList.remove("animate__animated", "animate__bounce");
+}
+
+// Sendoso Skill Btn
+function mouseoverSendoso(skill){
+    skill.style.border = "3px solid #f86d58";
+    document.querySelector("#sendosoCheck").classList.add("animate__animated", "animate__bounce");
+}
+
+function mouseoutSendoso(skill){
+    skill.style.border = "3px solid #fff9f1";
+    document.querySelector("#sendosoCheck").classList.remove("animate__animated", "animate__bounce");
 }
 
 
